@@ -29,8 +29,26 @@ nav{
 
 .conteiner{
     width: 90%;
-    height: 85%;
+    height: 92%;
     margin: auto;
     margin-top: 20px;
-    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 7 - 10px);
+    height: calc(100% / 5 - 20px);
+    background-image: url(immprov1.jpg);
+    background-size: cover;
+    margin: 10px 5px;
+    position: relative;
+}
+
+.name{
+    background-color: rgba(128, 128, 128, 0.6);
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 0;
 }

@@ -8,7 +8,7 @@
 
 main{
     width: 100vw;
-    height: 90vh;
+    height: 92vh;
     background-color: rgb(0, 0, 0);
 }
 
@@ -24,7 +24,7 @@ nav{
     padding: 5px;
     border-radius: 5px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .conteiner{
@@ -51,4 +51,40 @@ nav{
     padding: 2px;
     position: absolute;
     bottom: 0;
+}
+
+
+/* Footer */
+
+footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(48, 44, 44);
+}
+
+.left{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.micro , .video{
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+
+.fa-microphone ,.fa-video {
+    font-size: 25px;
+}
+
+.micro > p{
+    font-size: 12px;
+    padding: 2px;
+}
+
+.video >p{
+    font-size: 12px;
+    padding: 2px;
 }

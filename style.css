@@ -60,6 +60,7 @@ footer{
     width: 100vw;
     height: 8vh;
     background-color: rgb(48, 44, 44);
+    display: flex;
 }
 
 .left{
@@ -69,7 +70,15 @@ footer{
     align-items: center;
 }
 
-.micro , .video{
+.center{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft{
     text-align: center;
     margin: 15px;
     color: white;
@@ -80,16 +89,17 @@ footer{
     font-size: 12px;
 }
 
-.fa-microphone ,.fa-video {
+.awesome {
     font-size: 25px;
 }
 
-.micro > p{
+.fontp{
     font-size: 12px;
-    padding: 2px;
+    padding: 4px;
+    margin-top: 5px;
 }
 
-.video >p{
-    font-size: 12px;
-    padding: 2px;
+.special{
+    color: rgb(26, 230, 26);
+    font-size: 25px;
 }

@@ -75,6 +75,11 @@ footer{
     color: white;
 }
 
+.fa-angle-up{
+    color: white;
+    font-size: 12px;
+}
+
 .fa-microphone ,.fa-video {
     font-size: 25px;
 }
